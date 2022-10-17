@@ -7,7 +7,7 @@ class InviteGenerator:
         for _ in range(len(names)):
             self.invitee_names.append(names[_].strip()) # strip nextline "\n"
 
-    def adding_names_to_letter(self):
+    def generating_invites(self):
         text_to_replace = "[name]"
 
         # Accessing template letter:
